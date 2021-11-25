@@ -31,16 +31,123 @@
 }
 .main-flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .main-list{
     margin-top: 40px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: left;
-    width: 70%;
-     
+    flex-direction: column;   
 }
+
+.main-title{
+    font-size: 35px;
+    margin-bottom: 15px;
+    width: 70%; 
+}
+
+.main-text{
+    font-size: 22px;
+    margin-bottom: 15px;
+    line-height: 30px;
+    width: 70%;
+}
+.main-btn{
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 10px;
+}
+.main-img{
+    width: 400px;
+    height: 250px;
+}
+
+.title-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.title-title{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.title-text{
+    font-size: 25px;
+    width: 80%;
+    text-align: center;
+    line-height: 35px;
+}
+
+.box-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+.box-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.box-img{
+    width: 250px;
+}
+.box-item{
+    padding: 3px;
+}
+.box-title{
+    font-size: 18px;
+}
+.box-text{
+    font-size: 15px;
+}
+ .box-footer{
+     text-align: center;
+     margin-top: 20px;
+    
+ }
+ .box-btn{
+     width: 140px;
+     background-color: turquoise;
+     color: white;
+     border-radius: 5px;
+    padding: 3px;
+ }
+ .box-link{
+     padding: 10px;
+    
+ }
+ .sector-flex{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 10px;
+     margin-bottom: 40px;
+     
+ }
+
+ .sector-title{
+     font-size: 35px;
+     margin-bottom: 15px;
+ }
+ .sector-text{
+     font-size: 22px;
+     width: 85%;
+ }
+ .sectoe-right{
+     align-items: center;
+ }
