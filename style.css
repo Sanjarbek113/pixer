@@ -334,6 +334,14 @@
     .sector-text{
         font-size: 18px;
     }
+    .sector-flex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sector-flex{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media(max-width:720px){
