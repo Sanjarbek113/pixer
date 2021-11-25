@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.header-item{
+    padding: 10px;
+    font-size: 20px;
+}
+.header-number{
+    background-color: lightseagreen;
+    padding: 7px;
+    border-radius: 10px;
+}
