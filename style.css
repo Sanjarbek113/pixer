@@ -323,7 +323,9 @@
     }
     
     .sector-img{
-        width: 200px;
+        width: 340px;
+        height: 260px;
+
     }
     .sector-right{
         margin-left: 20px;
@@ -363,6 +365,9 @@
     .main-list{
         align-items: center;
     }
+    .main-title, .main-text{
+        margin-left: 80px;
+    }
     .main-img{
         width: 450px;
         height: 300px;
@@ -393,7 +398,8 @@
     }
     
     .sector-img{
-        width: 150px;
+        width: 350px;
+        height: 250px;
     }
     .sector-right{
         margin-left: 20px;
@@ -453,7 +459,8 @@
      }
      
     .sector-img{
-        width: 100px;
+        width: 330px;
+        height: 250px;
     }
     .sector-right{
         margin-left: 20px;
@@ -527,8 +534,8 @@
        }
        
     .sector-img{
-        width: 90px;
-        height: 90px;
+        width: 250px;
+        height: 200px;
     }
     .sector-right{
         margin-left: 20px;
@@ -558,6 +565,9 @@
         width: 150px;
         height: 30px;
         font-size: 15px;
+    }
+    .main-title{
+        font-size: 25px;
     }
 }
 
